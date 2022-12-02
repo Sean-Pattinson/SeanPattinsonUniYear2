@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout Page</title>
+    <link rel="stylesheet" type="text/css" href="layout%20page.css">
+</head>
+<body>
+<div id="menu">
+            <img src="mrnaturs.gif"/>
+</div>
+<div id="header"><h1>An Introduction to Layout</h1>
+<h3>Tables & DIVs</h3></div>
+<div id="content"><p> This layout is faking the kind of layout that is frequently achieved using tables, though this page
+    does the same thing using stylesheets and divs. See if you can get this kind of layout but actually
+    using tables. Remember to set the border="1" for your table until you've got the layout right and only
+    then change to border="0". The key to the layout is correct column and row spanning.</p>
+
+    <table width="100%" border="1">
+        <tr>
+            <td rowspan="2">
+                This column spans two rows, so
+                notice in the next row I need
+                only define column 2
+            </td>
+            <td>
+                Row one, column two
+            </td>
+        </tr>
+        <tr>
+            <td>
+                row 2, column 2</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                This column extends
+                over two column widths -
+                so I only need define one column
+            </td>
+        </tr>
+    </table>
+
+    <p>In the directed-study for this week you're going to do a similar thing using stylesheets with not a
+        table in site. Please don't look at the source code, until you've really worked at it for an hour or so.
+        You'll learn more that way.</p>
+    <p><a href="http://www.nl-webspace.co.uk/~unn_isrd1/new/index.php?pid=296">Tutorial Home</a></p>
+</div>
+</body>
+</html>

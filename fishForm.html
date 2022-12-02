@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form id="fishForm" action="/fishProcess.php" method="get">
+    <fieldset>
+        <h1>Order Fish</h1>
+        <fieldset>
+            <legend>About You</legend>
+            <label>Name
+                <input name="Name" type="text"/>
+            </label>
+            <br/>
+            <label>Address
+                <textarea name="Address" form="fishForm"></textarea>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Choose Fish</legend>
+            <label>Type
+                <select name="fish">
+                    <option value="guppy">guppy</option>
+                    <option value="shark">Shark</option>
+                    <option value="tuna">tuna</option>
+                </select>
+            </label>
+            <label> Number Required
+                <input name ="quantity" type="number"/>
+            </label>
+        </fieldset>
+        <input type="submit" value="Order!"/>
+    </fieldset>
+</form>
+</body>
+</html>

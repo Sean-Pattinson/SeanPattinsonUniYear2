@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Form to choose foods that you like</title>
+</head>
+<body>
+<form action="chooseFoodProcess.php" method="get">
+    <h1>Foods that you like</h1>
+    <fieldset>
+        <legend>About you</legend>
+        <label>Forename
+            <input type="text" name="forename" accesskey="f" />
+        </label>
+        <label>Surname
+            <input type="text" name="surname" accesskey="s" />
+        </label>
+        <label>Your level of study
+            <select name="studyLevel">
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five</option>
+                <option value="6">Six</option>
+                <option value="7">Seven</option>
+                <option value="8">Eight</option>
+            </select>
+        </label>
+        <div>
+            Gender
+            <label>Male
+                <input type="radio" name="gender"  value="male" accesskey="m" />
+            </label>
+            <label>Female
+                <input type="radio" name="gender" value="female" accesskey="e" />
+            </label>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>The foods that you like</legend>
+        <p>Click the foods you like</p>
+        <label>Bread
+            <input type="checkbox" name="food[]" value="bread" accesskey="b" />
+        </label>
+        <label>Broccoli
+            <input type="checkbox" name="food[]"  value="broccoli" accesskey="r" />
+        </label>
+        <label>Chocolate
+            <input type="checkbox" name="food[]"  value="chocolate" accesskey="c" />
+        </label>
+        <label>Pizza
+            <input type="checkbox" name="food[]" value="pizza" accesskey="p" />
+        </label>
+        <label>Yoghurt
+            <input type="checkbox" name="food[]" value="yoghurt" accesskey="y" />
+        </label>
+    </fieldset>
+    <div>
+        <input type="submit" value="Send it!" accesskey="u" />
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+span {
+    margin: auto;
+    padding: 2%;
+}
+
+.film {
+    display: flex;
+    border: solid greenyellow;
+}
+
+.filmID {
+    width: 10%;
+}
+
+.title {
+    width: 20%
+}
+
+.category {
+    width: 10%
+}
+
+.notes {
+    width: 40%;
+    display: block;
+}

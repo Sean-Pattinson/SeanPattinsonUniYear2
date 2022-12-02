@@ -1,0 +1,52 @@
+ul.topnav {
+    list-style-type: none;
+    margin: auto;
+    padding: 1%;
+    overflow: hidden;
+    background-color: lightseagreen;
+    font-size: 1.1em;
+    width: 90%;
+    height: 10%;
+    border: 0.1em solid black;
+    border-radius: 2em;
+    font-family: Arial, Verdana, Calibri, sans-serif;
+}
+
+ul.topnav li {
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+ul.topnav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #ffffff;
+}
+
+ul.topnav li a.active {
+    background-color: skyblue;
+    text-decoration: underline;
+}
+
+#offers {
+    float: left;
+}
+
+#XMLOffers {
+    float: right;
+}
+
+#logout {
+    float: left;
+}
+
+#logon {
+    float: left;
+}

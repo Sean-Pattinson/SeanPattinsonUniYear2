@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Form to order a model aeroplane</title>
+</head>
+<body>
+<h1>Order a plane</h1>
+<form id = "planeForm" action="planeProcess.php" method="get">
+    <fieldset>
+        <legend>Choose plane</legend>
+        <label>Plane
+            <select name="planetype">
+                <option value = "cap">Cap (&pound; 250)</option>
+                <option value = "extra">Extra (&pound; 200)</option>
+                <option value = "giles">Giles (&pound; 500)</option>
+                <option value = "yak">Yak (&pound; 400)</option>
+            </select>
+        </label>
+        <label>No required
+            <select name="quantity">
+                <option value = "1">1</option>
+                <option value = "2">2</option>
+                <option value = "3">3</option>
+                <option value = "4">4</option>
+                <option value = "5">5</option>
+            </select>
+        </label>
+    </fieldset>
+    <div><input type="submit" value="Order" accesskey="s" /></div>
+</form>
+</body>
+</html>

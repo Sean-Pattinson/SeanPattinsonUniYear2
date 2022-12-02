@@ -1,0 +1,160 @@
+/* sets the styling of the holiday class. */
+.holidays {
+    display: flex;
+    border: solid black;
+    text-decoration-line: underline;
+    font-size: 1.5em;
+}
+
+/* sets the styling of the searchResults class. */
+.searchResults {
+    display: flex;
+    border: solid black;
+}
+
+.holidayDetails {
+    display: flex;
+    border: solid black;
+}
+
+span {
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+/* sets the styling of the holiday title. */
+.title {
+    width: 15%;
+}
+
+/* sets the styling of the holiday destination. */
+.destination {
+    width: 15%
+}
+
+/* sets the styling of the holiday category. */
+.category {
+    width: 10%;
+}
+/* sets the styling of the holiday description. */
+.description {
+    width: 30%;
+    display: block;
+}
+
+/* sets the styling of the holiday duration. */
+.duration {
+    width: 10%;
+}
+
+/* sets the stying of the holiday price. */
+.price {
+    width: 10%;
+}
+
+body {
+    padding: 1%;
+    flex: auto;
+    width: auto;
+}
+
+/* sets the styling for the banner at the top of the page */
+#banner {
+    display: block;
+    width: 90%;
+    height: auto;
+    border: 0.1em solid black;
+    border-radius: 2em;
+    margin: auto;
+}
+
+/* sets the styling for the main tag of the page ensures that there is fonts available */
+div {
+    margin: auto;
+    padding: 1%;
+    margin-top: 1%;
+    text-align: left;
+    border: 0.1em solid black;
+    border-radius: 2em;
+    width: 90%;
+    height: auto;
+    background-color: lightseagreen;
+    font-size: 1.2em;
+    font-family: Arial, Verdana, Calibri, sans-serif;
+}
+
+/*CSS for the navbar removes the bullet points and sets background color*/
+ul.topnav {
+    list-style-type: none;
+    margin: auto;
+    padding: 1%;
+    overflow: hidden;
+    background-color: lightseagreen;
+    font-size: 1.1em;
+    width: 90%;
+    height: 10%;
+    border: 0.1em solid black;
+    border-radius: 2em;
+    font-family: Arial, Verdana, Calibri, sans-serif;
+}
+
+/*ensures that the list is horizontal accross the page not vertical */
+ul.topnav li {
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*changes the styling of the links that are held in the navbar */
+ul.topnav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+}
+
+/*when a link that is not active is hovered the background of it will change to white */
+ul.topnav li a:hover:not(.active) {
+    background-color: #ffffff;
+}
+
+/* when a link is active it will display a sky blue background and be underlined. */
+ul.topnav li a.active {
+    background-color: skyblue;
+    text-decoration: underline;
+}
+
+/* sets the styling of images that are given the class article */
+img.article {
+    float: right;
+    width: 20%;
+    height: 5%;
+    padding: 1%;
+}
+
+/* sets the styling of images that are to be floated left */
+img.left {
+    float: left;
+    width: 20%;
+    height: 5%;
+    padding: 1%;
+}
+
+/* sets styling of h1 */
+h1 {
+    text-decoration-line: underline;
+    font-size: 1.1em;
+}
+
+/* sets styling of h2 */
+h2 {
+    font-size: 1em;
+}
+
+/* sets text style for emphasised text */
+em {
+    font-style: italic;
+    text-decoration-line: underline;
+}
